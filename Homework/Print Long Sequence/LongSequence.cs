@@ -19,7 +19,6 @@ namespace Print_Long_Sequence
                 Console.WriteLine(x);
                 Console.WriteLine(y);
             }
-            //x is used to create the sequence 2,4,6...the second part(-3,-5,-7...)is created using a simple math formula that subtracts from the value of x.This ensures that the siquence will be arranged accordingly when the program starts.
         }
     }
 }
