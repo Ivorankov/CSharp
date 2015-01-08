@@ -1,0 +1,6 @@
+c:\users\kjkjh\documents\visual studio 2013\Projects\MyNamePrinted\MyNamePrinted\bin\Debug\MyNamePrinted.exe.config
+c:\users\kjkjh\documents\visual studio 2013\Projects\MyNamePrinted\MyNamePrinted\bin\Debug\MyNamePrinted.exe
+c:\users\kjkjh\documents\visual studio 2013\Projects\MyNamePrinted\MyNamePrinted\bin\Debug\MyNamePrinted.pdb
+c:\users\kjkjh\documents\visual studio 2013\Projects\MyNamePrinted\MyNamePrinted\obj\Debug\MyNamePrinted.csprojResolveAssemblyReference.cache
+c:\users\kjkjh\documents\visual studio 2013\Projects\MyNamePrinted\MyNamePrinted\obj\Debug\MyNamePrinted.exe
+c:\users\kjkjh\documents\visual studio 2013\Projects\MyNamePrinted\MyNamePrinted\obj\Debug\MyNamePrinted.pdb

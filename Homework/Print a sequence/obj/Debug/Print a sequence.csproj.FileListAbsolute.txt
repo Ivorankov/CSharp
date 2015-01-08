@@ -1,0 +1,6 @@
+c:\users\kjkjh\documents\visual studio 2013\Projects\Print a sequence\Print a sequence\bin\Debug\Print a sequence.exe.config
+c:\users\kjkjh\documents\visual studio 2013\Projects\Print a sequence\Print a sequence\bin\Debug\Print a sequence.exe
+c:\users\kjkjh\documents\visual studio 2013\Projects\Print a sequence\Print a sequence\bin\Debug\Print a sequence.pdb
+c:\users\kjkjh\documents\visual studio 2013\Projects\Print a sequence\Print a sequence\obj\Debug\Print a sequence.csprojResolveAssemblyReference.cache
+c:\users\kjkjh\documents\visual studio 2013\Projects\Print a sequence\Print a sequence\obj\Debug\Print a sequence.exe
+c:\users\kjkjh\documents\visual studio 2013\Projects\Print a sequence\Print a sequence\obj\Debug\Print a sequence.pdb
