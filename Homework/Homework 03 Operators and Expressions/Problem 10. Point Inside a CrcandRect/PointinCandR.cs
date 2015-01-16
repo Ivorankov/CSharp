@@ -17,8 +17,8 @@ namespace Problem_10.Point_Inside_a_CrcandRect
             centerY = 1;
             tLeftRect = -1;
             tRightRect = 1;
-            bLeftRect = -5;
-            bRightRect = -5;
+            bLeftRect = -6;
+            bRightRect = -6;
             Console.Write("Enter your x coordinates: ");
             x = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter your y coordinates: ");
