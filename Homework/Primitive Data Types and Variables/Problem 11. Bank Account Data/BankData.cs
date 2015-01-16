@@ -33,7 +33,7 @@ namespace Problem_10.Employee_Data
             IBAN = IBAN.ToUpper();
             Console.WriteLine("------------------------");
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("Credit card №1 number");
+            Console.WriteLine("Credit card1 number");
              do
             {
                 tester = UInt64.TryParse(Console.ReadLine(), out CreditCard1);
@@ -60,7 +60,7 @@ namespace Problem_10.Employee_Data
             } while (tester == false);
 
             Console.WriteLine("------------------------");
-            Console.WriteLine("Credit card №2 number");
+            Console.WriteLine("Credit card2 number");
             do
             {
                 tester = UInt64.TryParse(Console.ReadLine(), out CreditCard2);
@@ -86,7 +86,7 @@ namespace Problem_10.Employee_Data
             } while (tester == false);
             Console.WriteLine("------------------------");
 
-            Console.WriteLine("Credit card №3 number");
+            Console.WriteLine("Credit card3 number");
             do
             {
                 tester = UInt64.TryParse(Console.ReadLine(), out CreditCard3);
