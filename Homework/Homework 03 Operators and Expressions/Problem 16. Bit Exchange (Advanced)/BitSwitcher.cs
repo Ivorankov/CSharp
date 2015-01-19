@@ -17,9 +17,9 @@ namespace Problem_16.Bit_Exchange__Advanced_
             Console.WriteLine("This program will switch the values of the bits you select"); // In this part the user inputs the values
             Console.Write("Write some number: ");
             number = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Pease select the first bit: ");
+            Console.Write("Please select the first bit: ");
             bitPosition = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Pease select the 2nd bit: ");
+            Console.Write("Please select the 2nd bit: ");
             bitPosition2 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Now just specify the ammount of bits you want to switch the value of: ");
             area = Convert.ToInt32(Console.ReadLine());
