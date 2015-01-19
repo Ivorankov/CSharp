@@ -26,14 +26,10 @@ namespace Problem_8.Prime_Number_Check
                 if (number % n == 0)
                 {
                     Console.WriteLine("The number isn't prime");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("The number is prime");
-                    break;
+                    return;
                 }
             }
+            Console.WriteLine("The number is prime");
         }
     }
 }
