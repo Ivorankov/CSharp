@@ -15,10 +15,10 @@ namespace Problem_10.Point_Inside_a_CrcandRect
             radius = 1.5;
             centerX = 1;
             centerY = 1;
-            tLeftRect = -1;
-            tRightRect = 1;
-            bLeftRect = -6;
-            bRightRect = -6;
+            tLeftRect = 1;
+            tRightRect = 5;
+            bLeftRect = -1;
+            bRightRect = 5;
             Console.Write("Enter your x coordinates: ");
             x = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter your y coordinates: ");
@@ -41,7 +41,7 @@ namespace Problem_10.Point_Inside_a_CrcandRect
                 Console.WriteLine("The point isnt in the circle");
             }
 
-            if(x > tRightRect | x < tLeftRect | y < bLeftRect | y <= 0)
+            if(x > tRightRect | x < bLeftRect | y < bLeftRect | y >tLeftRect)
             {
                 Console.WriteLine("The point is not in the rectangle");
             }
