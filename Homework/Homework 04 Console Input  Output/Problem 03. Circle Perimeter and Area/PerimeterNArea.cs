@@ -15,15 +15,20 @@ namespace Problem_3.Circle_Perimeter_and_Area
 
             Console.WriteLine("This program will calculate the perimeter and area of a circle");
             Console.Write("Enter the radius of the circle: ");
-            while (!double.TryParse(Console.ReadLine(), out radius))                                                        //This part validates the user input 
+
+            //This part validates the user input 
+            while (!double.TryParse(Console.ReadLine(), out radius))                                                        
             {
                 Console.WriteLine("Please use numeric values");
             }
-            perimeter = Math.PI * radius * 2;                                                                               //This part calculates the perimeter and area
-            area = Math.PI * radius * radius;
 
+            //This part calculates the perimeter and area
+            perimeter = Math.PI * radius * 2;                                                                               
+            area = Math.PI * radius * radius;
             Console.WriteLine();
-            Console.WriteLine("The area of the circle is: " + Math.Round(area,2,MidpointRounding.AwayFromZero));            //This part prits the result to console
+
+            //This part prits the result to console
+            Console.WriteLine("The area of the circle is: " + Math.Round(area,2,MidpointRounding.AwayFromZero));            
             Console.WriteLine("The perimeter of the circle is: " + Math.Round(perimeter, 2, MidpointRounding.AwayFromZero));
         }
     }

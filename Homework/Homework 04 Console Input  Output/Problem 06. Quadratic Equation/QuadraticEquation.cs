@@ -15,7 +15,9 @@ namespace Problem_6.Quadratic_Equation
             
             Console.WriteLine("This program solves quadratic equations");
             Console.Write("Enter a number for a: ");
-            while (!double.TryParse(Console.ReadLine(), out a))                     //This part validates the user input
+
+            //This part validates the user input
+            while (!double.TryParse(Console.ReadLine(), out a))                     
             {
                 Console.WriteLine("Please use numeric values!");
                 Console.Write("Enter a number for a: ");
@@ -32,7 +34,9 @@ namespace Problem_6.Quadratic_Equation
                 Console.WriteLine("Please use numeric values!");
                 Console.Write("Enter a number for c: ");
             }
-            x = (-b + Math.Sqrt(b*b- 4 * a * c)) / (2*a);                         //This part works the magic of Math. and prints the results
+
+            //This part works the magic of Math. and prints the results
+            x = (-b + Math.Sqrt(b*b- 4 * a * c)) / (2*a);                         
             Console.WriteLine("X1=: " + x);
             x = (-b - Math.Sqrt(b * b - 4 * a * c)) / (2*a);
             Console.WriteLine("X2=: " + x);

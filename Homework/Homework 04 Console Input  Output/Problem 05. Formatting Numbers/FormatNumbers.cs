@@ -23,9 +23,11 @@ namespace Problem_05.Formatting_Numbers
             double number2, number3;
             string binary,firstNumber,secondNumber,thirdNumber,result;
 
-            Console.WriteLine("This program makes no sence");      //This part takes the input from the user and validates it.
+            Console.WriteLine("This program makes no sence");      
             here:
             Console.Write("Enter a positive number from 0 to 500: ");
+
+            //This part takes the input from the user and validates it.
             while (!int.TryParse(Console.ReadLine(), out number))
             {
                 Console.WriteLine("Please use numeric values");
@@ -33,7 +35,7 @@ namespace Problem_05.Formatting_Numbers
             if (number > 500 || number < 0)
             {
                 Console.WriteLine("The number should be between 0 and 500");
-                goto here; // This is my new favourite thing :D 
+                goto here; //I just wanted to try the goto...I know I know its bad 
             }
             Console.Write("Enter a floating point number, whatever that is: ");
             while (!double.TryParse(Console.ReadLine(), out number2))
@@ -45,10 +47,13 @@ namespace Problem_05.Formatting_Numbers
             {
                 Console.WriteLine("Please use numeric values");
             }
-            firstNumber = "a";                                  //This is used for the top of the table
+
+            //This is used for the top of the table
+            firstNumber = "a";                                  
             secondNumber = "b";
             thirdNumber = "c";
             result = "Result";
+            //This prints the rest in the console
             binary = Convert.ToString(number, 2).PadLeft(16,'0');  
             Console.WriteLine("{0,-10}{1,-10}{2,-10}{3,20}",firstNumber,secondNumber,thirdNumber,result);    //This part prints the results to the console
             Console.WriteLine("{0,-10}{1,-10}{2,-10}|{0,10:X}|{3,10}|{1,10:0.00}|{2,-10:0.000}|",number,number2,number3,binary);

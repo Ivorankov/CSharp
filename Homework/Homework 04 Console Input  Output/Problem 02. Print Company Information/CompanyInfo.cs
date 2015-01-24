@@ -23,7 +23,9 @@ namespace Problem_02.Print_Company_Information
             Console.Write("Enter the company's address: ");
             address = Console.ReadLine();
             Console.Write("Enter the company's phone number: ");
-            while (!int.TryParse(Console.ReadLine(), out companyPhone))                                       //This part validates the user input
+
+            //This part validates the user input
+            while (!int.TryParse(Console.ReadLine(), out companyPhone))                                       
             {
                 Console.WriteLine("Please use numeric values");
             }
@@ -51,7 +53,9 @@ namespace Problem_02.Print_Company_Information
                 Console.WriteLine("Please use numeric values");
             }
             Console.Clear();
-            Console.WriteLine(companyName);                                                                //This part prints the information to the console
+
+            //This part prints the information to the console
+            Console.WriteLine(companyName);                                                                
             Console.WriteLine(address);
             Console.WriteLine(companyPhone);
             Console.WriteLine(companyFax);

@@ -27,11 +27,15 @@ namespace Problem_07.Sum_of_5_Numbers
                 Console.WriteLine("The numbers u entered are less or more then 5, or you didn't use space between some of the numbers");
                 goto here;
             }
-            for (int i = 0; i <= 4; i++)                                                             // This will calculate the numbers
+
+            // This will calculate the numbers
+            for (int i = 0; i <= 4; i++)                                                             
             {
                 result = result + double.Parse(numbersArray[i]);
             }
-            Console.WriteLine("The sum of the 5 numbers is: " + result);                             //This will print the sum of the numbers
+
+            //This will print the sum of the numbers
+            Console.WriteLine("The sum of the 5 numbers is: " + result);                            
         }
     }
 }

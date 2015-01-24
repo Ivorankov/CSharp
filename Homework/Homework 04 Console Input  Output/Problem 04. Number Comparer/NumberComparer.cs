@@ -16,7 +16,9 @@ namespace Problem_04.Number_Comparer
 
             Console.WriteLine("This smart program can tell which number is bigger!!!");
             Console.Write("Write a number: ");
-            while (!int.TryParse(Console.ReadLine(), out x))                            //This part validates the user input
+
+            //This part validates the user input
+            while (!int.TryParse(Console.ReadLine(), out x))                            
             {
                 Console.WriteLine("Please use numeric values");
             }
@@ -25,8 +27,10 @@ namespace Problem_04.Number_Comparer
             {
                 Console.WriteLine("Please use numeric values");
             }
-            n = Math.Max(x, y);                                                       //This part finds the greater number
-            Console.WriteLine("----- " + n + " IS BIGGER WOOOOO" + " -----");         //This part prints the result to the console
+
+            //This part finds the greater number and prints the result to the console
+            n = Math.Max(x, y);                                                       
+            Console.WriteLine("----- " + n + " IS BIGGER WOOOOO" + " -----");         
         }
     }
 }

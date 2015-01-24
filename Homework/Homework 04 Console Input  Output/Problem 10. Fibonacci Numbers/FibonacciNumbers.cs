@@ -18,25 +18,29 @@ namespace Problem_10.Fibonacci_Numbers
 
             Console.WriteLine("This program will display numbers from the fibonacci sequence");
             Console.Write("Choose the ammount of numbers you wish to see: ");
-            while (!int.TryParse(Console.ReadLine(), out amount))                             //This part will validate the user input
+
+            //This part will validate the user input
+            while (!int.TryParse(Console.ReadLine(), out amount))                             
             {
                 Console.WriteLine("Please use numeric values");                  
             }
             a = 0;
             b = 1;
-            for (i = 0; i < amount;i++)                                                      //This will run the sequence for the amount of times the user wants
+
+            //This will run the sequence for the amount of times the user wants
+            for (i = 0; i < amount;i++)                                                      
             {
                 fibNumber = a;
                 a = b;
                 b = fibNumber + b;
-                fibonacciSequence.Add(fibNumber);                                           //This will add the fibonacci numbers in a list
+                fibonacciSequence.Add(fibNumber);  //This will add the fibonacci numbers to a list
             }
             foreach (int fibb in fibonacciSequence)
             {
 
             }
-            numbers = string.Join(", ", fibonacciSequence.ToArray());                      //This will format the list content so that we get the numbers in 1 line
-            Console.WriteLine(numbers);                                                    //And Voala we print it to console
+            numbers = string.Join(", ", fibonacciSequence.ToArray()); //This will format the list content so that we get the numbers in 1 line
+            Console.WriteLine(numbers); //And Voala we print it to console
         }
     }
 }

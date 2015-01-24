@@ -16,8 +16,10 @@ namespace Problem_09.Sum_of_n_Numbers
             double result = 0;
             int n,i;
 
-            Console.WriteLine("This program sums a chosen ammount of numbers");                          //This part validates and inputs the user data
+            Console.WriteLine("This program sums a chosen ammount of numbers");
             Console.Write("How many numbers would you like to use?: ");
+
+            //This part validates and inputs the user data
             while (!int.TryParse(Console.ReadLine(), out n))
             {
                 Console.WriteLine("Please use numeric values,and make sure you enter a whole number");
@@ -38,7 +40,9 @@ namespace Problem_09.Sum_of_n_Numbers
             {
                 result = result + double.Parse(numbersArray[i]);
             }
-            Console.WriteLine(result);                                                                  //This part displays the outcome 
+
+            //This part displays the outcome 
+            Console.WriteLine(result);                                                                  
         }
     }
 }

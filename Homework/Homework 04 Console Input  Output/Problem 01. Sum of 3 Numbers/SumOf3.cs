@@ -15,7 +15,9 @@ namespace Problem_01.Sum_of_3_Numbers
 
             Console.WriteLine("This program will sum 3 numbers...");
             Console.Write("Please enter the 1st number: ");
-            while (!int.TryParse(Console.ReadLine(),out first))                                              //This will validate the user input
+
+            //This will validate the user input
+            while (!int.TryParse(Console.ReadLine(),out first))                                              
             {
                 Console.WriteLine("Stop trying to crash the program so u can bitch about it in the forums!");
             }
@@ -32,8 +34,9 @@ namespace Problem_01.Sum_of_3_Numbers
                 Console.WriteLine("Stop trying to crash the program so u can bitch about it in the forums!");
             }
 
-            result = first + second + third;                                                               //This sums the 3 numbers
-            Console.WriteLine("The sum of the 3 numbers is: " + result);                                   //This prints the sum into the console
+            //This sums the 3 numbers and print the result to the console
+            result = first + second + third;                                                               
+            Console.WriteLine("The sum of the 3 numbers is: " + result);                                   
         }
     }
 }
