@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsoleApplication3")]
+[assembly: AssemblyTitle("Problem 17. Calculate GCD")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConsoleApplication3")]
+[assembly: AssemblyProduct("Problem 17. Calculate GCD")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ca012805-6c3a-47e5-a8fb-ba19a7e88502")]
+[assembly: Guid("1f81f913-1e9a-40cd-95e3-05739b573575")]
 
 // Version information for an assembly consists of the following four values:
 //
