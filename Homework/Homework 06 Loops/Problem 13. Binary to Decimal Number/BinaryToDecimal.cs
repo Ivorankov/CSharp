@@ -16,27 +16,42 @@ namespace Problem_13.Binary_to_Decimal_Number
             int i, binaryDigit;
             double x, y, z;
             long result, binary;
+            string userInput;
             char[] testValidation;
+            bool test1,test2;
             Console.WriteLine("This program converts binary to decimal");
 
             //This part validates the user input
-        here:
-            Console.Write("Write a binary number: ");
-            while (!long.TryParse(Console.ReadLine(), out binary))//I TryPrase the input so i can validate it, otherwise the input will be enterted as a string and later Parsed to long...
+            test2 = true;
+            do
             {
-
-                Console.Write("Please use numeric values between 0 and 1: ");
-            }
-            testValidation = binary.ToString().ToCharArray();
-            foreach (var c in testValidation)
-            {
-                if (c != 48 && c != 49)
+                Console.Write("Write a binary number: ");
+                userInput = Console.ReadLine();
+                if (long.TryParse(userInput, out binary))//First we see if it's a valid number
                 {
-                    Console.WriteLine("Invalid binary number!(binary can only contain 1's or 0's");
-                    goto here; //I know its bad practise but in this case it helps a lot with validation(which is not required! So please dont sanction me :) ) 
+                    test1 = true;
+                    testValidation = userInput.ToCharArray();//Then we put the number in a char array
+                    foreach (var c in testValidation)//And in this foreach we check every digit , if there are digits different then 0 or 1 it sets the bool test2 to false
+                    {
+                        if (c == 48 || c == 49)
+                        {
+                            test2 = true;
+                        }
+                        else
+                        {
+                            test2 = false;
+                            break;
+                        }
+                    }
                 }
-            }
-
+                else// if we didnt get a valid number we set test2 to false
+                {
+                    test1 = false;
+                }
+             while (test1 == false || test2 == false)//here If one for the bools is false it loops back to do.
+             {
+                 Console.WriteLine("Invalid binary number!");
+             }
             result = 0;
             x = 2;
 
@@ -53,3 +68,4 @@ namespace Problem_13.Binary_to_Decimal_Number
         }
     }
 }
+
