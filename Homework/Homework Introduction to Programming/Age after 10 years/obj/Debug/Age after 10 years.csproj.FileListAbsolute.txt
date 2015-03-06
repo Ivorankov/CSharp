@@ -1,6 +1,0 @@
-c:\users\kjkjh\documents\visual studio 2013\Projects\Age after 10 years\Age after 10 years\bin\Debug\Age after 10 years.exe.config
-c:\users\kjkjh\documents\visual studio 2013\Projects\Age after 10 years\Age after 10 years\bin\Debug\Age after 10 years.exe
-c:\users\kjkjh\documents\visual studio 2013\Projects\Age after 10 years\Age after 10 years\bin\Debug\Age after 10 years.pdb
-c:\users\kjkjh\documents\visual studio 2013\Projects\Age after 10 years\Age after 10 years\obj\Debug\Age after 10 years.csprojResolveAssemblyReference.cache
-c:\users\kjkjh\documents\visual studio 2013\Projects\Age after 10 years\Age after 10 years\obj\Debug\Age after 10 years.exe
-c:\users\kjkjh\documents\visual studio 2013\Projects\Age after 10 years\Age after 10 years\obj\Debug\Age after 10 years.pdb

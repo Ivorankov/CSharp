@@ -1,0 +1,2 @@
+A string is an object of type String whose value is text. Internally, the text is stored as a sequential read-only collection of Char objects. There is no null-terminating character at the end of a C# string; therefore a C# string can contain any number of embedded null characters ('\0').
+Most importaint methonds for string are - ToString(),Lenght(),ToString(),Format(),Split(),Select(),Join().

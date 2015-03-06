@@ -1,1 +1,0 @@
-C:\Users\kjkjh\Documents\GitHub\CSharp-ConsoleApps\Homework\Primitive Data Types and Variables\Problem 11. Bank Account Data\bin\Debug\Problem_10.Employee_Data.exe.config
