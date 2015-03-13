@@ -11,8 +11,8 @@ class Display
     //Constructors
     public Display(double sizeOfDisplay, int displayColors)//Problem 2
     {
-        this.sizeOfDisplay = sizeOfDisplay;
-        this.displayColors = displayColors;
+        this.SizeOfDisplay = sizeOfDisplay;
+        this.DisplayColors = displayColors;
     }
 
     //Properties

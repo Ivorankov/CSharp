@@ -14,9 +14,9 @@ class Battery
     //Constructors
     public Battery(string model, double idleHours, double talkHours, TypeOfBattery batteryType)//Problem 2
     {
-        this.model = model;
-        this.idleHours = idleHours;
-        this.talkHours = talkHours;
+        this.Model = model;
+        this.IdleHours = idleHours;
+        this.TalkHours = talkHours;
         this.batteryType = batteryType;
     }
 

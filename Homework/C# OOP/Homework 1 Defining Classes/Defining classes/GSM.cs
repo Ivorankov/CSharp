@@ -28,10 +28,10 @@ class GSM
     }
     public GSM(string model, string manufacturer, string owner, double price, Battery battery, Display display)//Problem 2
     {
-        this.model = model;
-        this.manufacturer = manufacturer;
-        this.price = price;
-        this.owner = owner;
+        this.Model = model;
+        this.Manufacturer = manufacturer;
+        this.Price = price;
+        this.Owner = owner;
         this.battery = battery;
         this.display = display;
     }

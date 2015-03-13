@@ -15,10 +15,10 @@ using System.Collections.Generic;
         //Constructors
         public Call(string phoneNumber, int callDuration, DateTime date, DateTime time)
         {
-            this.phoneNumber = phoneNumber;
-            this.callDuration = callDuration;
-            this.date = date;
-            this.time = time;
+            this.PhoneNumber = phoneNumber;
+            this.CallDuration = callDuration;
+            this.Date = date;
+            this.Time = time;
         }
 
         //Properties

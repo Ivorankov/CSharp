@@ -5,7 +5,7 @@ using System.Collections.Generic;
 class GSMTest//Problem 7
 {
     private GSM[] arrayOfGSM = new GSM[4];
-    private string[] owners = new string[] { "Jonny", "Alex", "Tom", "Kate" };
+    private string[] owners = new string[] { "Jonny", "Alex", "Tommy", "Kate" };
     private string[] manufacturers = new string[] { "Trex", "Quatnum", "Parsel", "Generic" };
     private string[] models = new string[] { "Bone", "Theory", "Meter", "Trash" };
     private double[] prices = new double[] { 250, 1695.95, 860, 9.95 };
