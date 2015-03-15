@@ -149,9 +149,7 @@ class GSM
             for (int i = 0; i < callHistory.Count; i++)
             {
                 if (callHistory[i].CallDuration == newCall.CallDuration &&
-                    callHistory[i].PhoneNumber == newCall.PhoneNumber &&
-                    callHistory[i].Date == newCall.Date &&
-                    callHistory[i].Time == newCall.Time) 
+                    callHistory[i].PhoneNumber == newCall.PhoneNumber) 
                 {
                     callHistory.Remove(callHistory[i]);
                 }

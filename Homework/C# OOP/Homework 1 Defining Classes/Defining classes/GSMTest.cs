@@ -9,7 +9,7 @@ class GSMTest//Problem 7
     private string[] manufacturers = new string[] { "Trex", "Quatnum", "Parsel", "Generic" };
     private string[] models = new string[] { "Bone", "Theory", "Meter", "Trash" };
     private double[] prices = new double[] { 250, 1695.95, 860, 9.95 };
-    private string[] batteriesModels = new string[] { "UltraBat", "Intelic", "DuraNotCell", "Rec" };
+    private string[] batteriesModels = new string[] { "UltraBat", "Intelic", "DuraNotCell", "Recc" };
     private double[] idleHours = new double[] { 36, 50, 31.5, 0.30 };
     private double[] talkHours = new double[] { 12, 21, 13.5, 0.05 };
     private Battery.TypeOfBattery[] batteryType = new Battery.TypeOfBattery[] { Battery.TypeOfBattery.LiIon, Battery.TypeOfBattery.LiIon, Battery.TypeOfBattery.LiPol, Battery.TypeOfBattery.NiMh };//honestly I cant beleave this worked :D 

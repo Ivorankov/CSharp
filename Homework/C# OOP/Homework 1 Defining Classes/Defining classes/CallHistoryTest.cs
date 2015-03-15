@@ -8,7 +8,7 @@ class CallHistoryTest
 
     public void AddCalls()
     {
-            Call calls = new Call("087007", 123, DateTime.Now, DateTime.Now);
+            Call calls = new Call("08700705", 123, DateTime.Now, DateTime.Now);
             test.AddRemoveCall(calls, true);
             calls = new Call("+359 89 5111 445", 59, DateTime.Now, DateTime.Now.AddHours(1));//Wow them future people are calling
             test.AddRemoveCall(calls, true);
@@ -34,7 +34,7 @@ class CallHistoryTest
     }
     public void RemoveLongestCall()
     {
-        Call longestCall = new Call("0200154565", 240, DateTime.Now.AddDays(1), DateTime.Now.AddHours(5));
+        Call longestCall = new Call("0200154565", 240, DateTime.Now.AddDays(1), DateTime.Now.AddHours(5)); 
         test.AddRemoveCall(longestCall, false);
     }
     public void ClearHistory()
